@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins';   
+}
+body{
+    background-color:rgb(206, 107, 107);
+}
+.container{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    padding:120px;
+}
+input,button{
+    margin-bottom: 12px;
+    width: 53%;
+    align-self: center;
+    border-radius: 6px;
+    border-style: none;
+    padding: 8px;
+}
+button{
+    width:586px;
+}
+h1{
+    text-shadow: 2px 5px 8px rgb(231, 20, 125);
+    color:rgb(70, 3, 61);
+    font-size: 50px;
+    padding-left:35px;    
+}
+button{
+    background-color: rgb(70, 3, 61);
+    color:white;
+}
+button:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+}
+button:focus{
+    padding:5;
+    outline: none;
+    border:3px solid purple;
+}
+
+::selection{
+    background-color: purple;
+    color: white;
+}
+img {
+    width: 3rem;
+    height: 3rem;
+    padding-left:2rem;
+    display:flex;   
+}
+.title{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+input:focus{
+    box-shadow: 0px 0px 10px rgb(175, 85, 235);
+    border-width: 3px;
+    padding: none;
+    outline: none;
+}
+h1:hover{
+    text-shadow:6px 3px 15px rgb(214, 145, 241);
+    cursor:text;
+}
+@media (max-width:480px){
+    h1{
+        font-size: 29px;
+        display: flex;
+    }
+    input,button{
+        margin-bottom: 12px;
+        width: 199px;
+        align-self: center;
+        border-radius: 6px;
+        border-style: none;
+        padding: 8px;
+    }
+    button{
+        width:217px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        margin-top:250px;
+    }
+    h1{
+        font-size: 70px;
+        display: flex;
+        margin-bottom: 30px;
+        margin-left:6px
+    }
+    img{
+        width: 95px;
+        height: 90px;
+    }
+    input,button{
+        
+        margin-bottom: 26px;
+        width: 619px;
+        height: 50px;
+        font-size: 28px;
+        align-self: center;
+        border-radius: 6px;
+        border-style: none;
+        padding: 10px;
+
+    }
+    button{
+        width:641px;
+        height: 80px;
+        font-size: 30px;
+    }
+}
