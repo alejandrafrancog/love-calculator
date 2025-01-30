@@ -1,1 +1,1 @@
-# love-calculator
+# Love Calculator
